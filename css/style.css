@@ -1,0 +1,661 @@
+/* ==============================
+        common css start
+============================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.button a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #00aeed;
+    padding: 15px 30px;
+    border: 1px solid #00aeed;
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: .4s;
+}
+.button a:hover{
+    color: #00aeed;
+    background: #ffffff;
+    border: 1px solid #00aeed;
+}
+.title h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+/* ==============================
+        common css end
+============================== */
+
+
+/* ==============================
+    preloader part css start
+============================== */
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: #00aeed;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+#preloader h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 5px solid #fff;
+    position: relative;
+}
+#preloader h2:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d63384;
+    overflow: hidden;
+    border-bottom: 5px solid #d63384;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
+
+
+/* ==============================
+        preloader part css end
+============================== */
+
+
+
+/* ==============================
+        nav part css start
+============================== */
+nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transition: .4s;
+}
+.fixed{
+    background: #0d6efd;
+}
+nav ul li{
+    margin-left: 30px;
+    
+}
+
+nav ul li a{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    width: 0;
+    height: 3px;
+    background: #5ee006;
+    transition: .4s;
+}
+nav ul li .active::after{
+    width: 50%;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+nav ul li:hover a:after{
+    width: 80%;
+}
+
+
+/* ==============================
+        nav part css end
+============================== */
+
+
+/* ==============================
+        banner part css start
+============================== */
+#banner-part{
+    background: url(../images/banner-bg.png) no-repeat center;
+    background-size: cover;
+    
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 79, 252, 0.5);
+    padding-top: 120px;
+    padding-bottom: 133px;
+    
+}
+#banner-part .overlay .left h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+#banner-part .overlay .middle{
+    position: relative;
+}
+#banner-part .overlay .middle .img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#banner-part .overlay .middle .img img{
+    width: 100%;
+}
+#banner-part .overlay .right p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 290px;
+    margin-top: 100px;
+    line-height: 26px;
+}
+#banner-part .overlay .right .small{
+    display: none;
+}
+/* ==============================
+        banner part css end
+============================== */
+
+
+
+
+/* ==============================
+        who part css start
+============================== */
+#who-part{
+    background: #fff;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+#who-part .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    width: 533px;
+    margin-top: 40px;
+    line-height: 26px;
+}
+#who-part .text .small{
+    display: none;
+}
+
+#who-part .img img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ==============================
+        who part css end
+============================== */
+
+
+/* ==============================
+        slider part css start
+============================== */
+#slider-part{
+    background: url(../images/slider-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
+}
+#slider-part .main{
+    display: flex;
+}
+#slider-part .left-slider{
+    width: 30%;
+}
+#slider-part .left-slider .img img{
+    width: 100%;
+    margin-top: 28px;
+}
+#slider-part .right-slider{
+    width: 70%;
+}
+#slider-part .right-slider .details{
+    width: 100%;
+    text-align: center;
+}
+#slider-part .right-slider .details .text{
+    position: relative;
+    padding: 30px;
+}
+#slider-part .right-slider .details .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 560px;
+    line-height: 26px;
+    margin: 0 auto;
+}
+#slider-part .right-slider .details .text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 40px;
+}
+#slider-part .right-slider .details .text svg{
+    color: #00aeed;
+    font-size: 75px;
+}
+#slider-part .right-slider .details .text .left{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#slider-part .right-slider .details .text .right{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+#slider-part .right-slider ul{
+    text-align: center;
+    margin-top: -10px;
+}
+#slider-part .right-slider ul li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+}
+#slider-part .right-slider ul .slick-active{
+    width: 15px;
+    height: 15px;
+    background: #00aeed;
+    border-radius: 50%;
+}
+#slider-part .right-slider ul li button{
+    opacity: 0;
+}
+/* ==============================
+        slider part css end
+============================== */
+
+
+
+/* ==============================
+        service part css start
+============================== */
+#service-part{
+    background: url(../images/service-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+}
+#service-part .title{
+    text-align: center;
+}
+#service-part .title h2{
+    color: #fff;
+}
+#service-part .title p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 1000px;
+    margin-top: 40px;
+    line-height: 26px;
+}
+#service-part .item{
+    margin-top: 30px;
+}
+#service-part .item .icon{
+    text-align: center;
+    padding: 10px 0;
+}
+#service-part .item .icon span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+}
+#service-part .item .icon svg{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 9px;
+}
+#service-part .item .text{
+    text-align: center;
+    padding: 30px 0;
+}
+#service-part .item .text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#service-part .item .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 492px;
+    margin: 0 auto;
+}
+/* ==============================
+        service part css end
+============================== */
+
+
+
+/* ==============================
+        we do part css start
+============================== */
+#wedo-part{
+    overflow-x: hidden;
+}
+#wedo-part .img{
+    position: relative;
+}
+#wedo-part .img img{
+    width: 100%;
+}
+#wedo-part .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(5, 59, 61,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wedo-part .img .overlay svg{
+    font-size: 60px;
+    color: #fff;
+}
+#wedo-part .text .title{
+    margin-top: 50px;
+}
+
+#wedo-part .text .item{
+    margin-top: 40px;
+    
+}
+#wedo-part .text .item svg{
+    font-size: 60px;
+    color: #444444;
+}
+#wedo-part .text .inner-text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+}
+#wedo-part .text .inner-text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    width: 500px;
+}
+/* ==============================
+        we do part css end
+============================== */
+
+
+
+/* ==============================
+        news part css start
+============================== */
+#news-part{
+    padding: 80px 0;
+}
+#news-part .item{
+    margin-top: 60px;
+}
+#news-part .item .button{
+    margin-left: 15px;
+}
+#news-part .title{
+    text-align: center;
+}
+#news-part .item .img img{
+    width: 100%;
+}
+#news-part .item .text{
+    padding: 30px 0;
+}
+#news-part .item .text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+}
+#news-part .item .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    width: 500px;
+    margin-top: 30px;
+}
+/* ==============================
+        news part css end
+============================== */
+
+
+/* ==============================
+        social part css start
+============================== */
+#social-part{
+    background: url(../images/social-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+}
+#social-part .icons{
+    text-align: center;
+}
+#social-part .icons a{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    margin: 0 20px;
+    transition: .4s;
+}
+#social-part .icons svg{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 14px;
+}
+#social-part .icons a:hover{
+    background: #00aeed;
+    border: 2px solid #00aeed;
+    transform: rotateX(360deg);
+}
+#social-part .icons .google:hover{
+    background: #dc3545;
+    border: 2px solid #dc3545;
+}
+#social-part .icons .linkedin:hover{
+    background: #0d6efd;
+    border: 2px solid #0d6efd;
+}
+#social-part .icons .drible:hover{
+    background: #d63384;
+    border: 2px solid #d63384;
+}
+#social-part .icons .pinterest:hover{
+    background: #a70c14;
+    border: 2px solid #a70c14;
+}
+/* ==============================
+        social part css end
+============================== */
+
+/* ==============================
+        find us part css start
+============================== */
+#find-us-part{
+    background: #fff;
+    padding: 100px 0;
+}
+#find-us-part .title{
+    text-align: center;
+}
+#find-us-part .item{
+    margin-top: 60px;
+}
+#find-us-part .item h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+}
+#find-us-part .left .gap{
+    margin-top: 50px;
+}
+#find-us-part .left .icon svg{
+    font-size: 60px;
+    color: #444444;
+}
+#find-us-part .left .details h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    margin-top: 5px;
+}
+#find-us-part .left .details p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 5px;
+}
+#find-us-part .left .details span{
+    display: block;
+}
+#find-us-part .right form input{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #777777;
+    color: #444444;
+    width: 450px;
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    outline: 0;
+}
+#find-us-part .right form .msg{
+    width: 450px;
+    margin-top: 30px;
+    margin-top: 30px;
+    border: 2px solid #777777;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    outline: 0;
+    resize: none;
+}
+#find-us-part .right .button{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #00aeed;
+    padding: 8px 30px;
+    border: 1px solid #00aeed;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+    outline: 0;
+}
+/* ==============================
+        find us part css end
+============================== */
+
+
+
+/* ==============================
+        footer part css start
+============================== */
+#footer-part{
+    background: #062736;
+    text-align: center;
+    padding: 10px 0;
+}
+#footer-part p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+/* ==============================
+        footer part css end
+============================== */

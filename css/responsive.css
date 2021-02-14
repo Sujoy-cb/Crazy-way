@@ -1,0 +1,835 @@
+@media (min-width:320px) and (max-width:575px){
+
+
+    /* ---------preloader start--------- */
+    #preloader{
+        width: 100%;
+    }
+    #preloader h2{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    #preloader h2:before{
+        width: 100%;
+    }
+
+
+
+    /* ---------preloader end--------- */
+    
+    /* ---------nav part start--------- */
+    nav .bar{
+        color: #fff;
+        display: block;
+    }
+    nav .icon{
+        border: 1px solid #fff;
+    }
+   
+    nav ul{
+        background: #0d6efd;
+        text-align: center;
+    }
+    nav ul li{
+        margin-left: 0;
+        transition: .4s;
+    }
+    nav ul li a:after{
+        display: none;
+    }
+    nav ul li:hover{
+        background: #5ee006;
+    }
+
+
+    /* ---------nav part end--------- */
+
+
+    /* ---------banner part start--------- */
+    #banner-part .overlay{
+        padding-bottom: 75px;
+    }
+    #banner-part .overlay .left h2{
+        font-size: 55px;
+        margin-top: 28px;
+    }
+    #banner-part .overlay .middle{
+        display: none;
+    }
+    #banner-part .overlay .right p{
+        display: none;
+    }
+    #banner-part .overlay .right .small{
+        display: block;
+        font-size: 14px;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    #banner-part .overlay .right .button{
+        text-align: center;
+    }
+
+
+    /* ---------banner part end--------- */
+
+
+    /* ---------who part start--------- */
+    #who-part .title{
+        text-align: center;
+    }
+    #who-part .text p{
+        display: none;
+    }
+    #who-part .text .small{
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    #who-part .text .button{
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+
+    /* ---------who part end--------- */
+
+    /* ---------slider part start--------- */
+    #slider-part{
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+    #slider-part .main{
+        display: initial;
+    }
+    #slider-part .left-slider{
+        width: 100%;
+    }
+    #slider-part .right-slider{
+        width: 100%;
+    }
+    #slider-part .right-slider .details .text svg{
+        display: none;
+    }
+    #slider-part .right-slider .details .text p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    #slider-part .right-slider .details .text .level{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    /* ---------slider part end--------- */
+
+
+
+    /* ---------service part start--------- */
+    #service-part .title p{
+        width: 100%;
+    }
+    #service-part .item .icon span{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #service-part .item .icon svg{
+        font-size: 40px;
+    }
+    #service-part .item .text h4{
+        font-size: 16px;
+    }
+    #service-part .item .text p{
+        width: auto;
+        font-size: 14px;
+    }
+
+    /* ---------service part end--------- */
+
+
+
+    /* ---------we do part start--------- */
+    #wedo-part .text .title{
+        text-align: center;
+    }
+    #wedo-part .text .icon{
+        text-align: center;
+    }
+    #wedo-part .text .item svg{
+        font-size: 50px;
+    }
+    #wedo-part .text .inner-text h4{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #wedo-part .text .inner-text p{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ---------we do part end--------- */
+
+
+
+    /* ---------news part start--------- */
+    #news-part .item .text h4{
+        font-size: 16px;
+    }
+    #news-part .item .text p{
+        font-size: 14px;
+        width: 87%;
+        margin-top: 15px;
+    }
+    /* ---------news part end--------- */
+
+
+
+    /* ---------social part start--------- */
+    #social-part{
+        padding: 70px 0;
+    }
+    #social-part .icons a{
+        width: 60px;
+        height: 60px;
+        margin: 10px 6px 0 5px;
+    }
+    #social-part .icons svg{
+        font-size: 30px;
+    }
+    /* ---------social part end--------- */
+
+
+
+    /* ---------find us part start--------- */
+    #find-us-part .item{
+        margin-top: 30px;
+    }
+    #find-us-part .item h4{
+        font-size: 16px;
+        margin-left: 28px;
+    }
+    #find-us-part .left{
+        display: inline-block;
+    }
+    #find-us-part .left .pas{
+        width: 26%;
+    }
+    #find-us-part .left .pass{
+        width: 58%;
+    }
+    #find-us-part .left .icon svg{
+        font-size: 50px;
+    }
+    #find-us-part .left .details p{
+        width: 127%;
+    }
+    #find-us-part .right form input{
+        width: 100%;
+    }
+    #find-us-part .right form .msg{
+        width: 100%;
+    }
+
+
+    /* ---------find us part end--------- */
+
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    /* ---------nav part start--------- */
+    nav .bar{
+        color: #fff;
+        display: block;
+    }
+    nav .icon{
+        border: 1px solid #fff;
+    }
+   
+    nav ul{
+        background: #0d6efd;
+        text-align: center;
+    }
+    nav ul li{
+        margin-left: 0;
+        transition: .4s;
+    }
+    nav ul li a:after{
+        display: none;
+    }
+    nav ul li:hover{
+        background: #5ee006;
+    }
+
+
+    /* ---------nav part end--------- */
+
+
+    /* ---------banner part start--------- */
+    #banner-part .overlay{
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+    #banner-part .overlay .left h2{
+        font-size: 65px;
+        margin-top: 28px;
+    }
+    #banner-part .overlay .middle{
+        display: none;
+    }
+    #banner-part .overlay .right p{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #banner-part .overlay .right .small{
+        display: none;
+    }
+    #banner-part .overlay .right .button{
+        text-align: center;
+    }
+
+
+    /* ---------banner part end--------- */
+
+
+    /* ---------who part start--------- */
+    #who-part .title{
+        text-align: center;
+    }
+    #who-part .text p{
+        display: block;
+    }
+    #who-part .text .small{
+        display: none;
+    }
+    #who-part .text .button{
+        margin-left: 15px;
+    }
+
+    /* ---------who part end--------- */
+
+
+    /* ---------slider part start--------- */
+    #slider-part{
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+    #slider-part .main{
+        display: initial;
+    }
+    #slider-part .left-slider{
+        width: 100%;
+    }
+    #slider-part .left-slider .img img {
+        width: 85%;
+        margin-top: 28px;
+        margin-left: 34px;
+    }
+    #slider-part .right-slider{
+        width: 100%;
+    }
+    #slider-part .right-slider .details .text svg{
+        display: none;
+    }
+    #slider-part .right-slider .details .text p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    #slider-part .right-slider .details .text .level{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    /* ---------slider part end--------- */
+
+
+    /* ---------service part start--------- */
+    #service-part .title p{
+        width: 100%;
+    }
+    #service-part .item .icon span{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #service-part .item .icon svg{
+        font-size: 40px;
+    }
+    #service-part .item .text h4{
+        font-size: 16px;
+    }
+    #service-part .item .text p{
+        width: auto;
+        font-size: 14px;
+    }
+
+    /* ---------service part end--------- */
+
+
+    /* ---------we do part start--------- */
+    #wedo-part{
+        border-bottom: 1px solid #777777;
+        padding: 80px 0;
+    }
+    #wedo-part .img {
+        position: relative;
+        width: 90%;
+        margin-left: 28px;
+    }
+    #wedo-part .text .title{
+        text-align: center;
+    }
+    #wedo-part .text .icon{
+        text-align: center;
+    }
+    #wedo-part .text .item svg{
+        font-size: 50px;
+    }
+    #wedo-part .text .inner-text h4{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #wedo-part .text .inner-text p{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ---------we do part end--------- */
+
+
+    /* ---------news part start--------- */
+    #news-part .item .text h4{
+        font-size: 16px;
+    }
+    #news-part .item .text p{
+        font-size: 14px;
+        width: 87%;
+        margin-top: 15px;
+    }
+    /* ---------news part end--------- */
+
+    /* ---------social part start--------- */
+    #social-part{
+        padding: 70px 0;
+    }
+    #social-part .icons a{
+        width: 60px;
+        height: 60px;
+        margin: 10px 6px 0 5px;
+    }
+    #social-part .icons svg{
+        font-size: 30px;
+    }
+    /* ---------social part end--------- */
+
+
+/* ---------find us part start--------- */
+#find-us-part .item{
+    margin-top: 30px;
+}
+#find-us-part .item h4{
+    font-size: 16px;
+    margin-left: 28px;
+}
+#find-us-part .left{
+    display: inline-block;
+}
+#find-us-part .left .pas{
+    width: 26%;
+}
+#find-us-part .left .pass{
+    width: 58%;
+}
+#find-us-part .left .icon svg{
+    font-size: 50px;
+}
+#find-us-part .left .details p{
+    width: 127%;
+}
+#find-us-part .right form input{
+    width: 100%;
+}
+#find-us-part .right form .msg{
+    width: 100%;
+}
+
+
+/* ---------find us part end--------- */
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    .title h2{
+        font-size: 30px;
+    }
+
+    /* ---------nav part start--------- */
+    nav{
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        transition: .4s;
+    }
+    
+    nav .icon{
+        display: none;
+    }
+    
+    .fixed{
+        background: #0d6efd;
+    }
+    nav .medium{
+        display: block !important;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        margin-left: 15px;
+        
+    }
+    
+    nav ul li a{
+        display: inline-block !important;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        text-transform: uppercase;
+        position: relative;
+    }
+    nav ul li a:after{
+        content: "";
+        position: absolute;
+        top: -8px;
+        left: 8px;
+        width: 0;
+        height: 3px;
+        background: #5ee006;
+        transition: .4s;
+    }
+    nav ul li .active::after{
+        width: 50%;
+    }
+    nav ul li a:hover{
+        color: #ffffff;
+    }
+    nav ul li:hover a:after{
+        width: 80%;
+    }
+
+
+    /* ---------nav part end--------- */
+
+
+    /* ---------banner part start--------- */
+    #banner-part .overlay{
+        padding-top: 110px;
+        padding-bottom: 57px;
+    }
+    #banner-part .overlay .left h2{
+        font-size: 45px;
+        margin-top: 28px;
+    }
+    #banner-part .overlay .middle{
+        display: block;
+    }
+    #banner-part .overlay .right p{
+        display: block;
+        font-size: 14px;
+        width: 102%;
+        margin-top: 40px;
+    }
+    #banner-part .overlay .right .small{
+        display: none;
+        
+    }
+    #banner-part .overlay .right .button{
+        text-align: center;
+    }
+
+
+    /* ---------banner part end--------- */
+
+
+    /* ---------who part start--------- */
+    #who-part .title h2{
+        font-size: 30px;
+    }
+    #who-part .text p{
+        display: block;
+        font-size: 14px;
+        width: 110%;
+    }
+    #who-part .text .small{
+        display: none;
+    }
+    #who-part .text .button{
+        margin-left: 15px;
+    }
+
+    /* ---------who part end--------- */
+
+
+
+    /* ---------slider part start--------- */
+    #slider-part{
+        padding-top: 0;
+        padding-bottom: 2px;
+    }
+    #slider-part .left-slider .img img{
+        height: 31vh;
+    }
+    #slider-part .right-slider ul{
+        margin-top: -18px;
+    }
+    #slider-part .right-slider .details .text svg{
+        display: block;
+        font-size: 45px;
+    }
+    #slider-part .right-slider .details .text .left{
+        top: 61px;
+        left: 0;
+    }
+    #slider-part .right-slider .details .text .right{
+        top: 61px;
+        right: 0;
+    }
+    #slider-part .right-slider .details .text p{
+        width: 96%;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    #slider-part .right-slider .details .text h4 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    #slider-part .right-slider .details .text .level{
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+    /* ---------slider part end--------- */
+
+
+
+    /* ---------service part start--------- */
+    #service-part .title p{
+        width: 100%;
+        font-size: 15px;
+    }
+    #service-part .item .icon span{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    #service-part .item .icon svg{
+        font-size: 40px;
+    }
+    #service-part .item .text h4{
+        font-size: 16px;
+    }
+    #service-part .item .text p{
+        width: auto;
+        font-size: 14px;
+    }
+
+
+
+    /* ---------service part end--------- */
+
+
+    /* ---------we do part start--------- */
+    #wedo-part{
+        border-bottom: 1px solid #777777;
+        padding: 80px 0;
+    }
+    
+    #wedo-part .img {
+        position: relative;
+        width: 100%;
+    }
+    #wedo-part .text .title{
+        margin-top: -8px;
+    }
+    
+    #wedo-part .text .item{
+        margin-top: 15px;
+    }
+    #wedo-part .text .item svg{
+        font-size: 45px;
+    }
+    #wedo-part .text .inner-text h4{
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #wedo-part .text .inner-text p{
+        font-size: 14px;
+        text-align: left;
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    /* ---------we do part end--------- */
+
+
+
+    /* ---------news part start--------- */
+    #news-part .item .text h4{
+        font-size: 16px;
+    }
+    #news-part .item .text p{
+        font-size: 14px;
+        width: 87%;
+        margin-top: 15px;
+    }
+    /* ---------news part end--------- */
+
+
+
+    /* ---------social part start--------- */
+    #social-part{
+        padding: 80px 0;
+    }
+    /* ---------social part end--------- */
+
+
+    /* ---------find us part start--------- */
+#find-us-part .item{
+    margin-top: 30px;
+}
+#find-us-part .item h4{
+    font-size: 16px;
+}
+#find-us-part .left{
+    display: inline-block;
+}
+#find-us-part .left .pas{
+    width: 26%;
+}
+#find-us-part .left .pass{
+    width: 58%;
+}
+#find-us-part .left .icon svg{
+    font-size: 50px;
+}
+#find-us-part .left .details p{
+    width: 129%;
+}
+#find-us-part .right form input{
+    width: 100%;
+}
+#find-us-part .right form .msg{
+    width: 100%;
+}
+
+
+/* ---------find us part end--------- */
+
+    
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+    /* ---------banner part start--------- */
+    #banner-part .overlay{
+        padding-bottom: 114px;
+    }
+    
+    #banner-part .overlay .left h2{
+        font-size: 65px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+    /* ---------banner part end--------- */
+
+
+
+    /* ---------slider part start--------- */
+    #slider-part .left-slider .img img{
+        margin-top: 68px;
+    }
+    #slider-part .right-slider .details .text .left{
+        top: 22px;
+        left: 7px;
+    }
+    #slider-part .right-slider .details .text .right{
+        top: 25px;
+        right: 14px;
+    }
+    #slider-part .right-slider .details .text svg{
+        font-size: 60px;
+    }
+    #slider-part .right-slider .details .text p{
+        font-size: 14px;
+        width: 541px;
+    }
+    /* ---------slider part end--------- */
+
+
+    /* ---------service part start--------- */
+    #service-part .title h2{
+        margin-bottom: 20px;
+    }
+    #service-part .title p{
+        width: 73%;
+        margin: 0 auto;
+    }
+    #service-part .item .text p{
+        width: auto;
+    }
+    /* ---------service part end--------- */
+
+
+    /* ---------we do part start--------- */
+    #wedo-part .text .inner-text p{
+        width: 95%;
+        margin-top: 15px;
+    }
+
+
+    /* ---------we do part end--------- */
+
+
+
+    /* ---------news part start--------- */
+    #news-part .item .text p{
+        width: auto;
+    }
+    /* ---------news part end--------- */
+
+
+
+    /* ---------social part start--------- */
+    #social-part{
+        padding: 90px 0;
+    }
+
+
+
+    /* ---------social part end--------- */
+}
